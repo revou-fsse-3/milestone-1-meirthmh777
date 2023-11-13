@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(assets/font/Poppins/Poppins-Light.ttf);
+}
+body {
+    background-color: #ffffff;
+    font-family: "Poppins";
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+p {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.text {
+    text-align: center;
+    font-family: "Poppins";
+}
+
+    
+
+/*body*/
+/*header*/
+header {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+}
+.toplogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    color: #ffffff;
+}
+.logocontainer {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+#logocv {
+    width: 60px;
+    margin-right: 20px;
+}
+.logocontainer a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.navbar a {
+    margin-right: 15px;
+    text-decoration: none;
+    transition: 0.88s ease;
+    font-size: 15px;
+    color: #ffffff;
+}
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+    background-color:#DDE6ED;
+    padding: 1rem;
+}
+/* dark mode toggle */
+.darkmodecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+#moonicon {
+    width: 35px;
+    cursor: pointer;
+    color: #fff;
+}
+:root {
+    --primary-color: #ffff;
+    --secondary-color:#000000;
+    --tertiary-color: #9DB2BF;
+    --quaternary-color: #27374D;
+    
+}
+.darktheme {
+    --primary-color: #000000;
+    --secondary-color:#ffff;
+    --tertiary-color: #27374D;
+    --quaternary-color: #000000;
+}
+
+/* hamburger bar */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    background-color: rgb(255, 255, 255);
+    transition: 0.88s ease;
+    display: block;     /*supaya bar nya saling numpuk*/
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    border-radius: 2px;
+}
+@media screen and (min-width: 768px) {
+    .hamburger {
+        display: none;      /*on wide screen hides*/
+    }
+    .navbar {
+        display: flex;     /*on wide screen shows*/
+    }
+}
+@media screen and (max-width: 767px) {
+    .hamburger {
+        display: block;     /*on small screen shows*/
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+    .navbar {
+        /*on small screen hides*/
+        /*masih mau direvisi*/
+        display: flex;  
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        transform: translatex(-100%);
+        z-index: 10;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.737);
+        width: 100vw;
+        height: 100vw;
+        text-align: center;
+        transition: 0.55s;
+    }
+    .active {
+        transform: translatex(0);
+    }
+    .active > a {
+        font-size: 2rem;
+
+    }
+}

@@ -1,0 +1,55 @@
+/*section home*/
+.containerhome {
+    background-color: rgba(0, 0, 0, 0.612);
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.home {
+    padding: 20px;
+    border-radius: 10px;
+}
+#home {
+    padding: 10px;
+    text-align: center;
+    background-image: url("assets/background\ home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 768px) {
+    .containerhome {
+        margin-bottom: 20px;
+        margin-top: 70px;
+    }
+    #home {
+        padding-bottom: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .hometext {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .containerhome {
+        margin-bottom: 20px;
+        margin-top: 70px;
+    }
+    #home {
+        padding-bottom: 10px;
+    }
+    .home {
+        padding: 5px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .hometext {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}

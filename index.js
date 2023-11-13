@@ -1,4 +1,4 @@
-alert("Welcome to Spareshop!");
+alert("Welcome to CV. MMH CONTRACTOR!");
 
 /*hamburger*/ /*masih mau dicek lagi*/
 const hamburger = document.querySelector(".hamburger");
