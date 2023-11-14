@@ -2,7 +2,7 @@
 /*section contact us*/
 
 .contactus {
-    padding: 65px 0 30px 0;
+    padding: 30px;
     background-color: var(--quaternary-color);
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
 /* section ratingsss */
 .ratingform {
     background-color: var(--quaternary-color);
-    padding: 10%;
+    padding-top: 30px;
     justify-content: center;
     text-align: center;
     color: #ffffff;
