@@ -18,7 +18,7 @@ h1 {
     color: #FFFFFF;
 }
 p {
-    font-size: 25px;
+    font-size: 20px;
     color: #ffffff;
 }
 
@@ -90,17 +90,19 @@ header {
     color: #fff;
 }
 :root {
-    --primary-color: #ffff;
+    --primary-color: #ffffff;
     --secondary-color:#000000;
     --tertiary-color: #9DB2BF;
     --quaternary-color: #27374D;
+    --quinary-color: #DDE6ED;
     
 }
 .darktheme {
     --primary-color: #000000;
-    --secondary-color:#ffff;
+    --secondary-color:#ffffff;
     --tertiary-color: #27374D;
     --quaternary-color: #000000;
+    --quinary-color: #27374D;
 }
 
 /* hamburger bar */
@@ -151,7 +153,7 @@ header {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.737);
+        background-color: rgba(0, 0, 0, 0.777);
         width: 100vw;
         height: 100vw;
         text-align: center;

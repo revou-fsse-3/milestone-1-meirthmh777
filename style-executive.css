@@ -1,0 +1,120 @@
+/* section our product */
+#executive {
+    background-color: var(--quinary-color);
+    padding: 80px;
+    align-items: center;
+}
+.executive {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+#listexecutive {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 15px;
+    padding-bottom: 3rem;
+}
+
+.executiveimg {
+    padding: 15px;
+    /* background-color: var(--tertiary-color); */
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.executiveimg > img {
+    width: 100%;
+    border-radius: 400px;
+    align-items: center;
+}
+/* .imgonly {
+    background-color: #ffffff;
+} */
+.executivedesc {
+    margin-top: 20px;
+    padding: 20px;
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+    border-radius: 25px;
+    text-align: center;
+}
+.executivedesc p {
+    color: #ffffff;
+    font-size: 23px;
+    margin-top: 7px;
+}
+.executivedesc h3 {
+    font-size: 28px;
+    color: #ffffff;
+
+}
+
+.sosmedcontainer {
+    display: flex;
+    padding-top: 15px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.sosmedcontainer img {
+    width: 35px;
+    height: 35px;
+}
+/* nyoba srcset in dark mode tapi ntar nyoba lagi
+.executivedesc a img {
+    filter: invert(1);
+}
+@media (prefers-color-scheme: dark) {
+    .executivedesc a img {
+        filter: invert(0);
+    }
+} */
+
+
+@media only screen and (max-width: 768px) {
+    #executive {
+        padding: 70px;
+    }
+    #listexecutive {
+        grid-gap: 15px;
+        align-items: center;
+    }
+    .executiveimg {
+        width: 100%;
+    }
+    .executive h2 {
+        font-size: 20px;
+    }
+    .executivedesc h3 {
+        font-size: 20px;
+    }
+    .executivedesc p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #pexecutive {
+        padding: 70px 20px 20px 20px;
+    }
+    #listexecutive {
+        grid-gap: 15px;
+        align-items: center;
+    }
+
+    .executiveimg {
+        width: 90%;
+    }
+    .executive h2 {
+        font-size: 23px;
+    }
+    .pexecutivedesc h3 {
+        font-size: 20px;
+    }
+    .executivedesc p {
+        font-size: 18px;
+    }
+}
