@@ -15,7 +15,7 @@ in the Navigation bar I use the class of .navbar
 # New Project
 ## About Spareshop
 Access to our website project in the links below:
-- Vercel app: https://module-2-meirthmh777.vercel.app/
+- Vercel app: https://milestone-1-meirthmh777.vercel.app/
 - Netlify app : https://zingy-maamoul-c666f5.netlify.app/
 - New domain : https://spareshop.shop/
 
