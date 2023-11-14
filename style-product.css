@@ -14,7 +14,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-    grid-gap: 10px;
+    grid-gap: 25px;
     padding-bottom: 3rem;
 }
 
@@ -74,7 +74,7 @@
     }
 
     .productimg {
-        width: 300px;
+        width: 320px;
     }
     .product h2 {
         font-size: 23px;
