@@ -19,6 +19,7 @@
 .articleimg img {
     width: 100%;
     padding: 20px;
+    border-radius: 50px;
 }
 li {
     font-size: 25px;
