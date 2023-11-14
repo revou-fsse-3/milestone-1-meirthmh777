@@ -1,17 +1,8 @@
 /*footer*/
-/*section contact us*/
-
-.contactus {
-    padding: 30px;
-    background-color: var(--quaternary-color);
-    justify-content: center;
-    align-items: center;
-}
-
 /* section ratingsss */
 .ratingform {
     background-color: var(--quaternary-color);
-    padding-top: 30px;
+    padding: 35px;
     justify-content: center;
     text-align: center;
     color: #ffffff;
