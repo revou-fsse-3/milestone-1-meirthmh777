@@ -24,7 +24,7 @@
     border-radius: 20px;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    
 }
 .executiveimg > img {
     width: 100%;
@@ -102,7 +102,6 @@
         padding: 70px 20px 20px 20px;
     }
     #listexecutive {
-        grid-gap: 15px;
         align-items: center;
     }
 
