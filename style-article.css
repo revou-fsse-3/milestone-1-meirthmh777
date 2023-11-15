@@ -13,6 +13,12 @@
     font-size: 30px;
     color: #ffffff;
 }
+.articlepart h2 span {
+    padding-bottom: 10px;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: lighter;
+}
 .articlepart p {
     font-size: 25px;
 }
