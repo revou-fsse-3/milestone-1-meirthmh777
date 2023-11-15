@@ -7,14 +7,14 @@
 .executive {
     color: var(--secondary-color);
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 #listexecutive {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    grid-gap: 15px;
+    grid-gap: 25px;
     justify-content: center;
 }
 
@@ -24,6 +24,7 @@
     border-radius: 20px;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.363);
     
 }
 .executiveimg > img {
@@ -35,22 +36,21 @@
     background-color: #ffffff;
 } */
 .executivedesc {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
     color: var(--secondary-color);
     background-color: var(--quaternary-color);
-    border-radius: 25px;
+    border-radius: 17px;
     text-align: center;
+}
+.executivedesc h3 {
+    font-size: 25px;
+    color: #ffffff;
 }
 .executivedesc p {
     color: #ffffff;
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 7px;
-}
-.executivedesc h3 {
-    font-size: 28px;
-    color: #ffffff;
-
 }
 
 .sosmedcontainer {
@@ -77,7 +77,7 @@
 
 @media only screen and (max-width: 768px) {
     #executive {
-        padding: 70px;
+        padding: 70px 25px 25px 25px;
     }
     #listexecutive {
         grid-gap: 15px;
@@ -86,14 +86,11 @@
     .executiveimg {
         width: 100%;
     }
-    .executive h2 {
-        font-size: 20px;
-    }
     .executivedesc h3 {
         font-size: 20px;
     }
     .executivedesc p {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
@@ -104,17 +101,13 @@
     #listexecutive {
         align-items: center;
     }
-
     .executiveimg {
         width: 100%;
-    }
-    .executive h2 {
-        font-size: 23px;
     }
     .executivedesc h3 {
         font-size: 20px;
     }
     .executivedesc p {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
