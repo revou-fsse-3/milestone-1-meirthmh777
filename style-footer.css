@@ -59,6 +59,29 @@
     transform: rotate(.2turn);
 }
 
+/* section address */
+.address h2 {
+    font-size: 35px;
+}
+
+.address {
+    background-color: var(--quaternary-color);
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.addressdesc {
+    padding-top: 15px;
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+    border-radius: 17px;
+    text-align: center;
+}
+.addressdesc p {
+    font-size: 17px;
+}
+
 /*section about us*/
 .aboutus {
     background-color: #DDE6ED;

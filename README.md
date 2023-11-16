@@ -28,8 +28,8 @@ Here I will place the repository in my document folder in my computer.
 ![png](Documentation/0.1.2.png)
 Now I can change the file based on my needs in this new project.
 
--------------------------------------------
 
+-------------------------------------------
 ## 1. Semantic HTML and CSS Styling
 ### 1.1 Create HTML file and CSS Files
 Create HTML file in the vscode with <!DOCTYPE html>. Because I need a clear and detailed description for my project, that's why I also worked on the CSS for styling this new project. I worked both of HTML and CSS gradually so I have clear ideas for "what's next?". To make it even easier, I create every section design into different CSS files that connected with HTML file.
@@ -108,7 +108,23 @@ So the readers know who creates the website and the owner. it has brighter color
 
 
 --------------------------------------------
+## 3. How to Run This Project
+- You can easly download this project from Github.
+![png](Documentation/3.1.png)
 
+- Ekstract the ZIP file and move the folder to which storage you want.
+![png](Documentation/3.2.png)
+![png](Documentation/3.3.png)
+
+- Open the folder and open HTML code use vscode and click Open.
+![png](Documentation/3.4.png)
+![png](Documentation/3.5.png)
+
+- Run the code by click the Live Server. And done.
+![png](Documentation/3.6.png)
+![png](Documentation/3.7.png)
+
+----------------------------------------------
 ----------------------------------------------
 
 # The Author
