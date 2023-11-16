@@ -120,7 +120,7 @@ So the readers know who creates the website and the owner. it has brighter color
 ![png](Documentation/3.4.png)
 ![png](Documentation/3.5.png)
 
-- Run the code by click the Live Server. And done.
+- Run the code by click Go Live. And done.
 ![png](Documentation/3.6.png)
 ![png](Documentation/3.7.png)
 
